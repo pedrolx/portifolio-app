@@ -10,7 +10,6 @@ import { ProjectsList } from "../../components/Projects";
 
 export const Projects = () => {
   const [img, setImg] = useState(b_image2);
-
   const navigate = useNavigate();
 
   return (

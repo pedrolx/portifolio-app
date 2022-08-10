@@ -11,12 +11,24 @@ const appers = keyframes`
 `;
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  @media screen and (min-width: 769px) {
+    width: 100vw;
+    height: 100vh;
 
-  background-image: url(${(props) => props.img});
-  background-size: contain;
-  background-position: top center;
+    background-image: url(${(props) => props.img});
+    background-size: contain;
+    background-position: top center;
 
-  animation: ${appers} 1s linear;
+    animation: ${appers} 1s linear;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(${(props) => props.img});
+    background-size: contain;
+    background-position: top center;
+
+    animation: ${appers} 1s linear;
+  }
 `;

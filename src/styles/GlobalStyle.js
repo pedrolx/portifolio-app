@@ -20,33 +20,5 @@ export default createGlobalStyle`
         font-family: 'Edu VIC WA NT Beginner', cursive;
 
         list-style: none;
-
-    /* &::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background-color: #ffffff;
-  }
-
-  &::-webkit-scrollbar:horizontal {
-    height: 12px;
-  }
-  &::-webkit-scrollbar-track {
-    border: 1px #787878 solid;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 6px #c8c8c8 inset;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #0a4390;
-    border: 1px solid #ffffff;
-    border-radius: 16px;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background-color: #bf4649;
-    border: 1px solid #333333;
-  }
-  &::-webkit-scrollbar-thumb:active {
-    background-color: #0a4390;
-    border: 1px solid #96c9ff;
-  } */
     }
 `;
