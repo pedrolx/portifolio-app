@@ -1,5 +1,5 @@
 import { Container, GifDiv, Name, PhotoDiv } from "./styles";
-import photo from "../../../imgs/photo.png";
+import photo from "../../../imgs/photo.jpg";
 import { useState } from "react";
 
 export const PhotoContainer = () => {
