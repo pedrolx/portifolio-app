@@ -12,7 +12,7 @@ const appers = keyframes`
 
 export const Container = styled.div`
   @media screen and (min-width: 769px) {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
 
     background-image: url(${(props) => props.img});

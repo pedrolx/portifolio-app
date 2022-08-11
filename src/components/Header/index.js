@@ -14,10 +14,18 @@ export const Header = () => {
         <button onClick={() => navigate("/")}>Home</button>
         <button onClick={() => navigate("/projects")}>Projetos</button>
         <button>
-          <a href="https://www.linkedin.com/in/pedro-lucas-xavier/">Linkedin</a>
+          <a
+            href="https://www.linkedin.com/in/pedro-lucas-xavier/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
         </button>
         <button>
-          <a href="https://github.com/pedrolx">GitHub</a>
+          <a href="https://github.com/pedrolx" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
         </button>
       </ButtonsDiv>
     </HeaderContainer>

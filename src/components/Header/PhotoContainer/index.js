@@ -8,7 +8,7 @@ export const PhotoContainer = () => {
     <>
       <Container></Container>
       <PhotoDiv>
-        <img src={photo} alt="Pedro Lucas"/>
+        <img src={photo} alt="Pedro Lucas" />
       </PhotoDiv>
       <Name>
         <h2>Pedro Lucas X. e Santos</h2>

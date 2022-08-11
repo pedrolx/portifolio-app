@@ -16,7 +16,6 @@ import {
   StyledButon,
 } from "./styles";
 import b_image from "../../imgs/b_image.png";
-import photo from "../../imgs/photo.png";
 import { BsCode, BsCodeSlash, BsWhatsapp } from "react-icons/bs";
 import { FaLaptopCode, FaCodeBranch, FaHtml5, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -61,10 +60,10 @@ export const Home = () => {
               <p>
                 Tive contato com a área de tecnologia na adolescência, na época
                 apenas editava posts e textos com HTML por diversão. Desde então
-                tenho acompanhado a área e hoje em dia estou estudando
-                Desenvolvimento FullStack e buscando me aperfeiçoar a cada dia
-                para me destacar cada vez mais nessa área, onde cada aprendizado
-                aumenta o brilho nos olhos.
+                acompanho a área e hoje em dia estou estudando Desenvolvimento
+                FullStack e buscando me aperfeiçoar a cada dia para me destacar
+                cada vez mais nessa área, onde cada aprendizado aumenta o brilho
+                nos olhos.
               </p>
               <p>Vamos conversar;</p>
               <ul>
@@ -88,8 +87,14 @@ export const Home = () => {
           <>
             <AboutMeContainer>
               <Animation name="github" />
-            <p>GitHub</p>
-            <p>Desde o início da minha formação na área de tecnologia tive contato com o git para realizar das mais simples atividades até os projetos em equipe mais complexos onde foi necessário mais organização para minimizar conflitos e tonná-los mais fáceis de lidar caso aconteçam.</p>
+              <p>GitHub</p>
+              <p>
+                Desde o início da minha formação na área de tecnologia tive
+                contato com o git para realizar das mais simples atividades até
+                os projetos em equipe mais complexos onde foi necessário mais
+                organização para minimizar conflitos e torná-los mais fáceis de
+                lidar caso aconteçam.
+              </p>
             </AboutMeContainer>
             <StyledButon onClick={() => setMessage("About me")}>
               Retornar
@@ -103,7 +108,15 @@ export const Home = () => {
             <AboutMeContainer>
               <Animation name="csshtml" />
               <p>HTML - CSS</p>
-              <p>Tive um primeiro contato com o HTML na minha adolescência, editando textos e posts em fóruns. Na época somente por diversão. Exercitei muito o conhecimento em HTML por testar e ver vídeos sobre o assunto, já hoje em dia, adquiri conhecimento mais profissional sobre essa linguagem de marcação, que quando bem estruturada nos permite a criação de sites bonitos, funcionais e responsivos.</p>
+              <p>
+                Tive um primeiro contato com o HTML na minha adolescência,
+                editando textos e posts em fóruns. Na época somente por
+                diversão. Exercitei muito o conhecimento em HTML por testar e
+                ver vídeos sobre o assunto, já hoje em dia, adquiri conhecimento
+                mais profissional sobre essa linguagem de marcação, que quando
+                bem estruturada nos permite a criação de sites bonitos,
+                funcionais e responsivos.
+              </p>
             </AboutMeContainer>
             <p></p>
             <StyledButon onClick={() => setMessage("About me")}>
@@ -118,7 +131,15 @@ export const Home = () => {
             <AboutMeContainer>
               <Animation name="js" />
               <p>JavaScript</p>
-              <p>Através de cursos livres tive um contato inicial com javascript quando comecei a me interessar pela área de programação. Na minha formação exercitei o JavaScript puro no módulo um e dois, integrando ele ao HTML para adicionar algumal ógica específica e criando os ocnteúdos do HTML através do JavaScript para criação de soluções mais dinâmicas e que contenham dados mais extensos para trabalhar.</p>
+              <p>
+                Através de cursos livres tive um contato inicial com javascript
+                quando comecei a me interessar pela área de programação. Na
+                minha formação exercitei o JavaScript puro no módulo um e dois,
+                integrando ele ao HTML para adicionar algumal ógica específica e
+                criando os conteúdos do HTML através do JavaScript para criação
+                de soluções mais dinâmicas e que contenham dados mais extensos
+                para trabalhar.
+              </p>
             </AboutMeContainer>
             <StyledButon onClick={() => setMessage("About me")}>
               Retornar
@@ -132,7 +153,15 @@ export const Home = () => {
             <AboutMeContainer>
               <Animation name="react" />
               <p>React</p>
-              <p>O react foi a tecnologia que eu mais me identifiquei na trajetória FullStack, pela possibilidade de criar aplicações grandes e complexas de forma reativa, e possibilitando proporcionar ao usuário uma interação mais chamativa com a aplicação, seja estilizando tudo do zero ou utilizando bibliotecas que possam se integrar à aplicação de forma harmônica.</p>
+              <p>
+                O React foi a tecnologia que eu mais me identifiquei na
+                trajetória FullStack, pela possibilidade de criar aplicações
+                grandes e complexas de forma reativa, e possibilitando
+                proporcionar ao usuário uma interação mais chamativa com a
+                aplicação, seja estilizando tudo do zero ou utilizando
+                bibliotecas que possam se integrar à aplicação de forma
+                harmônica.
+              </p>
             </AboutMeContainer>
             <StyledButon onClick={() => setMessage("About me")}>
               Retornar

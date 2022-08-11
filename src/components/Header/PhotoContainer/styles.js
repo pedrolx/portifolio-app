@@ -95,7 +95,7 @@ export const PhotoDiv = styled.div`
 
     position: absolute;
     top: 6.5rem;
-    left: 6rem;
+    left: 5.6rem;
 
     animation: ${comeFromRight} 1s linear;
 
@@ -129,7 +129,7 @@ export const Name = styled.div`
 
     position: absolute;
     top: 7.5rem;
-    left: 13.5rem;
+    left: 14.6rem;
 
     animation: ${comeFromTop} 1s linear;
 

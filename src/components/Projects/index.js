@@ -13,7 +13,6 @@ import NoWaste1 from "../../imgs/projetos/Capturar15.PNG";
 import NoWaste2 from "../../imgs/projetos/Capturar16.PNG";
 import NoWaste3 from "../../imgs/projetos/Capturar17.PNG";
 import NoWaste5 from "../../imgs/projetos/Capturar19.PNG";
-import { AiFillGithub } from "react-icons/ai";
 import { Animation } from "../../lottie";
 
 export const ProjectsList = () => {

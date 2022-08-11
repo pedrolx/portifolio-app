@@ -44,6 +44,7 @@ export const Container = styled.div`
 
     animation: ${appers} 1s linear;
   }
+
   @media screen and (max-width: 768px) {
     width: 100vw;
     height: 100vh;
@@ -224,7 +225,7 @@ export const AboutMeMessage = styled.div`
     top: 12rem;
     left: 14rem;
 
-    padding: 2rem;
+    padding: 1rem 5rem 1rem 5rem;
 
     color: var(--white-color);
     font-size: 2rem;
@@ -235,7 +236,7 @@ export const AboutMeMessage = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
 
     animation: ${resize} 1s linear;
   }
@@ -271,7 +272,7 @@ export const AboutMeContainer = styled.div`
 
     text-align: justify;
 
-    gap: 1rem;
+    gap: 1.5rem;
 
     p {
       font-size: 1rem;

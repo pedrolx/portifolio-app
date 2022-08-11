@@ -2,68 +2,44 @@ import styled from "styled-components";
 
 export const Slider = styled.ul`
   @media screen and (min-width: 769px) {
-    width: 1200px;
-    height: 600px;
+    width: 100%;
+    height: 85%;
 
     position: absolute;
     top: 4.5rem;
-    left: 4rem;
+    left: 0rem;
 
     display: flex;
 
-    overflow-x: hidden;
+    overflow-x: scroll;
+
+    gap: 1rem;
 
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
 
   @media screen and (max-width: 768px) {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 85%;
 
     position: absolute;
-    top: 4.5rem;
+    top: 5.5rem;
 
     display: flex;
 
     overflow-x: scroll;
 
+    gap: 1rem;
+
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
-
-  /* &::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background-color: #ffffff;
-  }
-
-  &::-webkit-scrollbar:horizontal {
-    height: 12px;
-  }
-  &::-webkit-scrollbar-track {
-    border: 1px #787878 solid;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 6px #c8c8c8 inset;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #0a4390;
-    border: 1px solid #ffffff;
-    border-radius: 16px;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background-color: #bf4649;
-    border: 1px solid #333333;
-  }
-  &::-webkit-scrollbar-thumb:active {
-    background-color: #0a4390;
-    border: 1px solid #96c9ff;
-  } */
 `;
 
 export const SliderLi = styled.li`
   @media screen and (min-width: 769px) {
-    width: 100%;
+    width: 98%;
     height: 100%;
 
     scroll-snap-align: start;
@@ -83,6 +59,8 @@ export const SliderLi = styled.li`
 
     gap: 1rem;
 
+    border-radius: 1rem;
+
     background-color: var(--primary-color);
 
     filter: opacity(0.98);
@@ -97,8 +75,8 @@ export const SliderLi = styled.li`
     }
   }
   @media screen and (max-width: 768px) {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
     scroll-snap-align: start;
 
@@ -109,13 +87,14 @@ export const SliderLi = styled.li`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
     text-align: center;
     font-size: 1rem;
 
-    gap: .1rem;
+    gap: 0.1rem;
+
+    border-radius: 1rem;
 
     background-color: var(--primary-color);
 
@@ -125,7 +104,7 @@ export const SliderLi = styled.li`
 
     img {
       width: 90%;
-      height: 50%;
+      height: 40%;
 
       border-radius: 1rem;
     }
