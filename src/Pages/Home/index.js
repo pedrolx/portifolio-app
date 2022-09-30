@@ -2,12 +2,6 @@ import { useState } from "react";
 import "./styles";
 import {
   Container,
-  Photo,
-  HeaderContainer,
-  BodyContainer,
-  PhotoLine,
-  Portfolio,
-  Name,
   TechIcons,
   TechImg,
   MessageContainer,
@@ -16,11 +10,11 @@ import {
   StyledButon,
 } from "./styles";
 import b_image from "../../imgs/b_image.png";
-import { BsCode, BsCodeSlash, BsWhatsapp } from "react-icons/bs";
-import { FaLaptopCode, FaCodeBranch, FaHtml5, FaGithub } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaHtml5, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { TbBrandJavascript } from "react-icons/tb";
-import { GrReactjs } from "react-icons/gr";
+import { GrReactjs, GrNode } from "react-icons/gr";
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { PhotoContainer } from "../../components/Header/PhotoContainer";
@@ -49,6 +43,9 @@ export const Home = () => {
         </li>
         <li onClick={() => setMessage("React")}>
           <GrReactjs />
+        </li>
+        <li onClick={() => setMessage("Node")}>
+          <GrNode />
         </li>
       </TechImg>
       <MessageContainer />
@@ -161,6 +158,22 @@ export const Home = () => {
                 aplicação, seja estilizando tudo do zero ou utilizando
                 bibliotecas que possam se integrar à aplicação de forma
                 harmônica.
+              </p>
+            </AboutMeContainer>
+            <StyledButon onClick={() => setMessage("About me")}>
+              Retornar
+            </StyledButon>
+          </>
+        ) : (
+          <></>
+        )}
+        {message === "Node" ? (
+          <>
+            <AboutMeContainer>
+              <Animation name="nodejs" />
+              <p>Node.JS</p>
+              <p>
+                Exercitei o Node junto com express e utilizando o PostgreSQL para criar API's em diversas atividades porpostas. No trabalho final contruí junto com minha equipe do projeto, uma API que gerencia organizações, guardando seus usuários, donos e administradores, cada um com suas permissões, possibilidade de ter posts e comentários, assim como um sistema proprio de agendamento de reuniões que se baseava em uma análise da disponibilidade que cada usuário da organização tinha.
               </p>
             </AboutMeContainer>
             <StyledButon onClick={() => setMessage("About me")}>

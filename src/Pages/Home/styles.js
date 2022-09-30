@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import back_message from "../../imgs/back_message1.gif";
 
 const appers = keyframes` 
   0% {
@@ -50,7 +49,7 @@ export const Container = styled.div`
     height: 100vh;
 
     background-image: url(${(props) => props.img});
-    background-size: contain ;
+    background-size: contain;
     background-position: center;
 
     animation: ${appers} 1s linear;
@@ -201,6 +200,7 @@ export const MessageContainer = styled.div`
 
     animation: ${resize} 1s linear;
   }
+
   @media screen and (max-width: 768px) {
     width: 71.49%;
     height: 65%;
