@@ -14,6 +14,7 @@ import NoWaste2 from "../../imgs/projetos/Capturar16.PNG";
 import NoWaste3 from "../../imgs/projetos/Capturar17.PNG";
 import NoWaste5 from "../../imgs/projetos/Capturar19.PNG";
 import { Animation } from "../../lottie";
+import { FaGithub } from "react-icons/fa";
 
 export const ProjectsList = () => {
   return (

@@ -15,6 +15,7 @@ import { FaHtml5, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { TbBrandJavascript } from "react-icons/tb";
 import { GrReactjs, GrNode } from "react-icons/gr";
+import { DiPython } from "react-icons/di"
 import { useNavigate } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { PhotoContainer } from "../../components/Header/PhotoContainer";
@@ -46,6 +47,9 @@ export const Home = () => {
         </li>
         <li onClick={() => setMessage("Node")}>
           <GrNode />
+        </li>
+        <li onClick={() => setMessage("Python")}>
+          <DiPython />
         </li>
       </TechImg>
       <MessageContainer />
@@ -174,6 +178,22 @@ export const Home = () => {
               <p>Node.JS</p>
               <p>
                 Exercitei o Node junto com express e utilizando o PostgreSQL para criar API's em diversas atividades porpostas. No trabalho final contruí junto com minha equipe do projeto, uma API que gerencia organizações, guardando seus usuários, donos e administradores, cada um com suas permissões, possibilidade de ter posts e comentários, assim como um sistema proprio de agendamento de reuniões que se baseava em uma análise da disponibilidade que cada usuário da organização tinha.
+              </p>
+            </AboutMeContainer>
+            <StyledButon onClick={() => setMessage("About me")}>
+              Retornar
+            </StyledButon>
+          </>
+        ) : (
+          <></>
+        )}
+        {message === "Python" ? (
+          <>
+            <AboutMeContainer>
+              <Animation name="python" />
+              <p>Python</p>
+              <p>
+                Além do Node.JS para desenvolver API's, desenvolvi projetos em Python, utilizando o Django. Utilizando as generics do Django, fui capaz de desenvolver um projeto completo e complexo de uma maneira ágil para quando for necessário cumprir uma task grande em pouco tempo, utilizando as ferramentas de ORM do Django. 
               </p>
             </AboutMeContainer>
             <StyledButon onClick={() => setMessage("About me")}>

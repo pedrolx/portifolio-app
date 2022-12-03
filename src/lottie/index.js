@@ -5,6 +5,7 @@ import github from "./github-icon";
 import reactIcon from "./react.json";
 import javascriptIcon from "./javascript.json";
 import node from "./node.json"
+import python from "./python.json"
 import coding from "./coding";
 import construction from './construction.json';
 
@@ -32,11 +33,17 @@ export const Animation = ({ name, width=150, height=150 }) => {
         setAnimation(coding);
         break;
 
-        case "construction":
-          setAnimation(construction);
-          break;
-        case "nodejs":
-          setAnimation(node)
+      case "construction":
+        setAnimation(construction);
+        break;
+
+      case "nodejs":
+        setAnimation(node);
+        break;
+        
+      case "python":
+        setAnimation(python);
+        break;
 
       default:
         break;
